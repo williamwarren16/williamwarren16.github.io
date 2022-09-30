@@ -4,6 +4,7 @@
 <title>Elevator Panel Redesign</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="processing.js"></script>
 <style>
   * {
     box-sizing: border-box;
@@ -146,13 +147,13 @@
 
     <div class="row">
       <div class="column">
-        <img src="/content/Panel.png" alt="imagec" style="width:75%">
+        <img src="/content/demo1.gif" alt="imagec" style="width:75%">
       </div>
       <div class="column">
-        <img src="/content/elevatorInUse.gif" alt="imagec" style="width:75%">
+        <img src="/content/demo2.gif" alt="imagec" style="width:75%">
       </div>
       <div class="column">
-        <img src="/content/errors.png" alt="imagec" style="width:75%">
+        <img src="/content/demo3.gif" alt="imagec" style="width:75%">
       </div>
     </div>
   </div>
@@ -160,6 +161,7 @@
 
 <!-- Image of location/map -->
 <div class="w3-container">
+  <canvas data-processing-sources="ElevatorPanelRedesign.pde"></canvas>
   <img src="/content/elevator.png" class="w3-image" style="width:100%">
 </div>
 
